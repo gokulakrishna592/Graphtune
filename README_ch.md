@@ -18,23 +18,21 @@ Graphtune 是一个基于图结构特征与机器学习模型（XGBoost）的轻
 
 ## 项目结构
 
-Graphtune/
-├── core/                        # 特征提取、调度策略、算法实现  
-│   ├── extractor.py  
-│   ├── scheduler.py  
-│   └── algorithms.py  
-│  
-├── experiments/                # 实验脚本、训练逻辑、数据处理  
-│   ├── generate_graphs.py  
-│   ├── runner.py  
-│   ├── generate_dataset.py  
-│   ├── train_model.py  
-│   └── predict.py  
-│  
-├── experiments/sample_graphs/  # 自动生成的训练图样本  
-├── experiments/data/           # 自动生成的训练数据集  
-├── experiments/model/          # 存储训练好的模型  
-└── README.md  
+- Graphtune/  
+ - core/                       # 特征提取、调度策略、算法实现
+   - extractor.py  
+   - scheduler.py  
+   - algorithms.py  
+ - experiments/                # 实验脚本、训练逻辑、数据处理
+   - generate_graphs.py  
+   - runner.py  
+   - generate_dataset.py  
+   - train_model.py  
+   - predict.py    
+ - experiments/sample_graphs/  # 自动生成的训练图样本
+ - experiments/data/           # 自动生成的训练数据集
+ - experiments/model/          # 存储训练好的模型
+ - README.md
 
 ---
 
