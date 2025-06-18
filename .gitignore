@@ -1,0 +1,28 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+._*
+
+# IDE/editor metadata
+.vscode/
+.idea/
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+
+# Sample graphs: KEEP a few, but ignore excessive generation
+experiments/sample_graphs/g[3-9]*.json
+experiments/sample_graphs/g[1-9][0-9]*.json
+experiments/sample_graphs/g[1-9][0-9][0-9]*.json
