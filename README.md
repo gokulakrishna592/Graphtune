@@ -18,23 +18,21 @@ Its goal is to automatically select the most suitable basic graph algorithm—su
 
 ## Project Structure
 
-Graphtune/  
-├── core/                        # Feature extraction, scheduling strategy, algorithm implementation  
-│   ├── extractor.py  
-│   ├── scheduler.py  
-│   └── algorithms.py  
-│  
-├── experiments/                # Experiment scripts, training logic, data processing  
-│   ├── generate_graphs.py  
-│   ├── runner.py  
-│   ├── generate_dataset.py  
-│   ├── train_model.py  
-│   └── predict.py  
-│  
-├── experiments/sample_graphs/  # Auto-generated training graph samples  
-├── experiments/data/           # Auto-generated training datasets  
-├── experiments/model/          # Trained model storage  
-└── README.md  
+- Graphtune/  
+ - core/                        # Feature extraction, scheduling strategy, algorithm implementation  
+   - extractor.py  
+   - scheduler.py  
+   - algorithms.py  
+ - experiments/                # Experiment scripts, training logic, data processing  
+   - generate_graphs.py  
+   - runner.py  
+   - generate_dataset.py  
+   - train_model.py  
+   - predict.py    
+ - experiments/sample_graphs/  # Auto-generated training graph samples  
+ - experiments/data/           # Auto-generated training datasets  
+ - experiments/model/          # Trained model storage  
+ - README.md  
 
 ---
 
