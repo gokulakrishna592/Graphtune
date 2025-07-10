@@ -88,7 +88,7 @@ graphtune/
 
 **Gokul Krishna**  
 📧 kgokul592.gg@gmail.com 
-🌐 [LinkedIn](https://linkedin.com/in/gokul-krishna)  
+🌐 [LinkedIn](https://www.linkedin.com/in/gokul-krishna-407974199/)  
 
 
 ---
